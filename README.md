@@ -1,5 +1,6 @@
 # Instagram Filters
 A simple app to apply instagram filters to Images then download them
+[Demo](https://igfilters.netlify.app)
 
 ![homage](https://user-images.githubusercontent.com/106689032/186738315-380b8cd5-28ba-440a-9410-77b00d48ec70.PNG)
 
