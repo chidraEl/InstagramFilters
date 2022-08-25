@@ -5,8 +5,6 @@ import { FilterContext } from "../App";
 import { filterValues } from "../utils";
 
 const StyledFilterContainer = styled(Box)({
-  background: "#ddd",
-  borderRadius: "10px",
   width: "100px",
   minWidth: "100px",
   height: { xs: "80px", md: "200px" },
@@ -15,26 +13,23 @@ const StyledFilterContainer = styled(Box)({
   objectFit: "contain",
   overflow: "hidden",
   position: "relative",
-  transition: ".3s",
   img: {
+    transition: ".3s",
     width: "100%",
+    borderRadius: "10px",
+    background: "#ddd",
     maxHeight: "100%",
     minHeight: "80px",
     objectFit: "cover",
   },
   p: {
     textAlign: "center",
-    position: "absolute",
-    bottom: 0,
-    left: 0,
-    margin: 0,
-    padding: "6px 3px",
+    padding: "1px 3px",
     width: "100%",
-    color: "#fff",
+    color: "#666",
     fontSize: "16px",
-    background: "linear-gradient(360deg, black, transparent)",
   },
-  "&:hover": {
+  "&:hover img": {
     transform: "scale(1.03)",
     transition: ".3s",
     boxShadow: "2px 2px 10px rgba(0,0,0,.2)",
